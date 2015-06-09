@@ -1,0 +1,11 @@
+{
+	"passes":
+	[
+	],
+	"php55warning": true,
+	"psr2": true,
+	"version": 2,
+  "php_bin":"/usr/local/bin/php",
+  "enable_auto_align": true
+  // "format_on_save":true,
+}
