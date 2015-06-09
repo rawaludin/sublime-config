@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+{title="${1}", lang="php", linenos=off}
+~~~~~~~~
+${2}
+~~~~~~~~
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.plain, text.html.markdown, text.html.markdown.gfm</scope>
+</snippet>

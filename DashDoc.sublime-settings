@@ -1,0 +1,8 @@
+{
+  "syntax_sensitive_as_default": true,
+  "syntax_docset_map":
+  {
+    "HTML"                  : ["html", "svg", "css", "bootstrap", "foundation", "awesome", "statamic", "javascript", "jquery", "jqueryui", "jquerym", "angularjs", "backbone", "marionette", "meteor", "moo", "prototype", "ember", "lodash", "underscore", "sencha", "extjs", "knockout", "zepto", "cordova", "phonegap", "yui", "laravel"],
+    "PHP"                   : ["php", "wordpress", "drupal", "zend", "laravel", "yii", "joomla", "ee", "codeigniter", "cakephp", "phpunit", "symfony", "typo3", "twig", "smarty", "phpp", "html", "statamic", "mysql", "sqlite", "mongodb", "psql", "redis"],
+  }
+}
