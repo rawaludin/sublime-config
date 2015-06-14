@@ -25,17 +25,17 @@
 	"ignore_vcs_packages": true,
 	"ignored_packages":
 	[
-		"TodoReview",
 		"SublimeLinter-phpcs",
+		"TodoReview",
 		"Markdown",
 		"SublimeLinter",
-		"Vintage",
-		"Minify",
-		"SublimeLinter-csslint",
 		"GutterColor",
-		"Vintageous",
+		"SublimeLinter-csslint",
+		"Minify",
+		"Vintage",
+		"Jekyll",
 		"Git",
-		"Jekyll"
+		"Vintageous"
 	],
 	"indent_guide_options":
 	[
