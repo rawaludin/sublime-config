@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+leanpub-start-delete
+${1}
+leanpub-end-delete
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>leanpub-delete</tabTrigger>
+  <description>Leanpub delete string</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.markdown.gfm, markup.raw.block.markdown, markup.raw.block.fenced.markdown</scope>
+</snippet>

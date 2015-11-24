@@ -10,4 +10,16 @@
 
   // Add a special marker on untracked files
   "show_markers_on_untracked_file": true,
+
+  // Focus Change mode evaluates changes every time a view gets the focus
+  // Set false to disable evaluation when changing views
+  "focus_change_mode": false,
+
+  // Determines whether GitGutter will show informations in the status bar
+  // Set "none" to hide these informations
+  // Set "default" to show in the status bar what you are comparing
+  // against, how many lines have been inserted or modified and how many regions
+  // have been deleted.
+  // Set "all" to also show on what branch you are
+  "show_status": "none",
 }

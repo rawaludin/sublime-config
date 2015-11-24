@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{!! Form::submit('${1:Submit}', ['class'=>'btn btn-primary']) !!}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>submit</tabTrigger>
+  <description>bootstrap submit button</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.blade, text.html.basic, meta.embedded.line.php, entity.name.tag.block.any.html</scope>
+</snippet>

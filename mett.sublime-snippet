@@ -1,0 +1,35 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+/**
+ * Test ${1}
+ * @return void
+ */
+public function test${2}()
+{
+    /** preparation */
+    ${3} = factory(App\User::class, 'referrer')->create([
+        'name' => 'test',
+        'email' => 'test@test.com',
+        'password' => bcrypt('secret')
+    ]);
+
+    /** validation test */
+    \$result = ${3}->${2}(${5});
+    \$this->assertInstanceOf(Illuminate\Support\MessageBag::class,
+        \$result, '${6}');
+
+    /** logic test */
+
+    /** return value test */
+    \$result = ${3}->${2}();
+    \$expected = [];
+    \$this->assertEquals(\$expected, \$result, 'Should give correct return value');
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mett</tabTrigger>
+  <description>Create new model test</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, comment.block.documentation.phpdoc.php, punctuation.definition.comment.php</scope>
+</snippet>

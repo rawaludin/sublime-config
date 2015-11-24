@@ -1,0 +1,18 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<div class="row mt">
+    <div class="col-lg-12">
+        <ol class="breadcrumb">
+            <li><a ui-sref="${1:my_link}">${2:my_title}</a></li>
+            <li class="active">${3:active_title}</li>
+        </ol>
+    </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ang-breadcrumb</tabTrigger>
+  <description>new angular breadcrumb</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

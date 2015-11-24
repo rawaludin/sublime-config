@@ -45,5 +45,7 @@
 	    "keys": ["super+e"],
 	    "command": "run_macro_file",
 	    "args": {"file": "res://Packages/User/initialize_properties.sublime-macro"}
-	}
+	},
+	// format php code using php fmt plugin
+	{ "keys": ["super+k", "super+f"], "command": "fmt_now" },
 ]

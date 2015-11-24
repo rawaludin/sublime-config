@@ -1,0 +1,18 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<div class="form-group {!! $errors->has('${1}') ? 'has-error' : '' !!}">
+  {!! Form::label('${1}', '${2}') !!}
+  <div class="checkbox">
+    <label>
+      {!! Form::checkbox('${1}', 1) !!} ${3}
+    </label>
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>field-checkbox</tabTrigger>
+  <description>Make bootstrap checkbox field</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.blade, text.html.basic, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+response.writeHead(${1}, {"Content-Type": "${2:text/plain}"});
+response.write(${3});
+response.end();${4}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>resp</tabTrigger>
+  <description>new node response</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, meta.group.braces.curly, meta.group.braces.curly, variable.other.object.js</scope>
+</snippet>

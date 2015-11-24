@@ -1,0 +1,17 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+describe ('${1}', function() {
+
+  it('${2}', function() {
+    ${3}
+  });
+
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>desc</tabTrigger>
+  <description>Make jasmine spec</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, meta.function-call.with-arguments.js, variable.function.js</scope>
+</snippet>

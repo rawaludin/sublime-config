@@ -1,0 +1,29 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+vm.${1:my_method} = function(is_valid) {
+    // this will delete all backend validation message (reset)
+    vm.${2:my}_errors = {};
+
+    // this will trigger frontend validation to show up
+    vm.${2:my}_submit = true;
+
+    if (is_valid) {
+        return \$http.${3:post}('${4:my_url}', vm.${2:my}_params).then(function (response) {
+            console.log(response);
+            // ${5:do something}
+        }, function(error) {
+            // this will trigger backend validation to show up
+            console.log(vm.${2:my}_errors = errorTranslator.translate(error.data.data));
+        });
+    } else {
+        console.log("${2:my} form not valid!");
+    }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ang-form-ctrl</tabTrigger>
+  <description>New angular form logic in controller</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, meta.group.braces.round, meta.group.braces.curly, meta.group.braces.round, meta.group.braces.square, meta.group.braces.curly, support.module.node.js</scope>
+</snippet>

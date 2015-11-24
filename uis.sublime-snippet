@@ -1,0 +1,15 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+.state('${1}', {
+    url: '${2}',
+    templateUrl: '${3}',
+    controller: '${4}'
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>uis</tabTrigger>
+  <description>new ui-router state</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, meta.group.braces.round, meta.group.braces.curly, meta.group.braces.round, meta.group.braces.curly, keyword.operator.accessor.js</scope>
+</snippet>

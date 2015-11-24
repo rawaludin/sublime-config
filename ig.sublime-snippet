@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<div class="input-group">
+  <span class="input-group-addon" id="${1}">${2}</span>
+  <input type="${3:text}" class="form-control" placeholder="${4}">
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ig</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.basic</scope>
+</snippet>

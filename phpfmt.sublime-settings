@@ -1,12 +1,9 @@
 {
 	"debug": true,
 	"enable_auto_align": true,
-	"format_on_save": true,
-	"passes":
-	[
-	],
+	"format_on_save": false,
 	"php55warning": false,
 	"php_bin": "/usr/local/bin/php",
 	"psr2": true,
-	"version": 3
+	"version": 4
 }

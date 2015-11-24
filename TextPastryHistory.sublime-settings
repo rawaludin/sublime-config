@@ -1,0 +1,43 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "header.html",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "header.html"
+			},
+			"key": "57864b256b9cbcc447ad6e28b7a55608",
+			"label": "header.html"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "index.html",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "index.html"
+			},
+			"key": "eacf331f0ffc35d4b482f1d15a887d3b",
+			"label": "index.html"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"text": "index.html",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "index.html"
+	}
+}

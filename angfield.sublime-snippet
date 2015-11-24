@@ -1,0 +1,33 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<div class="form-group"
+    ng-class="{ 'has-error': ${1:myController}.${2:my}_form.${3:my_field}.\$invalid
+        && ${1:myController}.${2:my}_submit
+        || ${1:myController}.${2:my}_errors.${3:my_field} }">
+
+    <label for="${3:my_field}" class="${4:col-sm-2} control-label"><strong>${5:my_field_title}</strong></label>
+
+    <div class="${6:col-sm-10}">
+        <input ng-model="${1:myController}.${2:my}_params.${3:my_field}"
+            type="text" name="${3:my_field}"
+            class="form-control" placeholder="${7:my_placeholder}" required ${8:autofocus}>
+
+        <span class="help-block"
+          ng-show="${1:myController}.${2:my}_form.${3:my_field}.\$invalid
+            && ${1:myController}.${2:my}_submit">
+          ${9:my_error_message}
+        </span>
+
+        <span class="help-block" ng-repeat="error in ${1:myController}.${2:my}_errors.${3:my_field}">{{ error }}</span>
+    </div>
+</div>
+
+${10}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ang-field</tabTrigger>
+  <description>make new angular form field</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
